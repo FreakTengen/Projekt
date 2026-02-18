@@ -2,10 +2,14 @@
 width: 200px;
 height: 200px;
 border: 3px solid black;
+font-size: 190px;
+text-align: center;
+font-family: monospace;
 }
 .row{
 display: flex;
 }
-h1{
-    align-items: center;
+body{
+    background-color: crimson;
+    text-align: center;
 }
