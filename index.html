@@ -8,10 +8,14 @@
 </head>
 <body>
 <h1>Kółko i Krzyżyk</h1>
+<div>
+    <p>O wygranych: <span id="winsO">0</span> | X wygranych: <span id="winsX">0</span></p>
+    <button onclick="resetGame()" style="padding: 10px 20px; font-size: 16px; cursor: pointer; background-color: crimson; color: white; border: none; border-radius: 5px;">Wyczyść</button>
+</div>
     <div class="row">
     <div id='one' class="kom" onclick="generuj('one')"></div>
     <div id='two' class="kom" onclick="generuj('two')"></div>
-    <div id='fre' class="kom" onclick="generuj('fre')"></div>
+    <div id='three' class="kom" onclick="generuj('three')"></div>
 </div>
 
 <div class="row">
